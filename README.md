@@ -1,4 +1,4 @@
-Lung Cancer Prediction Project
+# Lung Cancer Diagnosis Project
 
 # 📌 Overview
 
