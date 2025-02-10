@@ -72,21 +72,21 @@ Chi-Square Test for categorical variables
 
 New Variables Derived:
 
-SMOK_INT = SMOK_B * SMOKA_MOD_B (Smoking Intensity)
+**SMOK_INT** = SMOK_B * SMOKA_MOD_B (Smoking Intensity)
 
-ALCO_INT = ALCO_AMOUNT_B / ALCO_B (Alcohol Intensity)
+**ALCO_INT** = ALCO_AMOUNT_B / ALCO_B (Alcohol Intensity)
 
-BMI = WT_B / (HT_B/100)^2 (Body Mass Index)
+**BMI** = WT_B / (HT_B/100)^2 (Body Mass Index)
 
-FEV1_FVC = FEV1 / FVC (Degree of Airflow Obstruction)
+**FEV1_FVC** = FEV1 / FVC (Degree of Airflow Obstruction)
 
-Family History Score:
+**Family History Score**:
 
 Selected PCAN80, PCAN89, FCAN80
 
 Trained logistic regression to determine weights
 
-Final Variable Definition: Cancer_History_Score = x*PCAN80 + y*PCAN89 + z*FCAN80
+Final Variable Definition: **Cancer_History_Score** = x*PCAN80 + y*PCAN89 + z*FCAN80
 
 # 🔹 Model Training & Evaluation
 
