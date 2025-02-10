@@ -19,7 +19,7 @@ However, the following table describes the **key variables** used in this study.
 | `AGE_B`      | Age at the time of screening (years) |
 | `SEX1`       | Gender (1: Male, 2: Female) |
 | `SMOK_B`     | Smoking status (1: Non-smoker, 2: Former smoker, 3: Current smoker) |
-| `SMOKA_MOD_B` | Average number of cigarettes per day (for current smokers) |
+| `SMOKA_MOD_B` | Average number of cigarettes per day |
 | `ALCO_B`     | Alcohol consumption (1: Yes, 2: No) |
 | `ALCO_AMOUNT_B` | Alcohol intake per session (in drinks) |
 | `EXER_B`     | Regular exercise habit (1: Yes, 2: No) |
@@ -70,7 +70,7 @@ Chi-Square Test for categorical variables
 
 # 🔹 Feature Engineering
 
-New Variables Defined:
+New Variables Derived:
 
 SMOK_INT = SMOK_B * SMOKA_MOD_B (Smoking Intensity)
 
